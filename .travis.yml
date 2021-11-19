@@ -1,0 +1,12 @@
+sudo: required
+
+services:
+  - docker
+
+before_install:
+  - echo "Eblotte fusson le!"
+
+script:
+  - echo "Most fogom futtatni a kivant utasitast"
+  - ./start.sh
+  - echo "Lefutott a script"
